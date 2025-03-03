@@ -1,0 +1,19 @@
+{
+    "accuracy" :
+    {
+        "acc_float": 0.980000,
+        "acc_int16x16": 0.980000,
+        "mae_int16x16": 1.000000,
+        "acc_int16x8": 0.980000,
+        "mae_int16x8": 1.000000,
+        "acc_int8x8": 0.980000,
+        "mae_int8x8": 1.000000
+    },
+    "scratch_memory" :
+    {
+        "scratch_mem_float": "999 kB",
+        "scratch_mem_int16x16": "999 kB",
+        "scratch_mem_int16x8": "999 kB",
+        "scratch_mem_int8x8": "999 kB"
+    }
+}

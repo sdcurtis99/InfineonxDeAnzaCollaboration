@@ -1,0 +1,25 @@
+{
+    "data": {
+        "validation_data": {
+            "data_mode": "random",
+            "max_samples": 100
+        }
+    },
+    "model": {
+        "inference_engine": "tflm",
+        "key_model": "IMAGIMOB_MODEL",
+        "load_model": "C:/Users/shann/OneDrive/Documents/FallDetection-1/Models/conv1d-medium-balanced-2/conv1d-medium-balanced-2.h5",
+        "optimization_settings": {
+            "headroom_weights": 6,
+            "quantization": [
+                "float"
+            ],
+            "sparsity": false,
+            "target": [
+                "PSoC6"
+            ]
+        }
+    },
+    "run_mode": "deploy",
+    "version": "2.0.0"
+}
